@@ -30,7 +30,7 @@ from layout import render_hero, render_page  # noqa: E402
 FULL_DETAILS_URL = "full-list.html"
 
 # Same fixed/rotating palettes as gen_simple_html.py, kept in sync so the
-# tier/category pill colors look identical to the rest of the components
+# type/category pill colors look identical to the rest of the components
 # tooling (full-list.html, any other gen_simple_html.py output).
 TIER_COLORS = {
     "gold":  {"bg": "#fef3c7", "fg": "#92400e"},
@@ -48,6 +48,9 @@ CATEGORY_PALETTE = [
     {"bg": "#fce7f3", "fg": "#9d174d"},
     {"bg": "#e5e7eb", "fg": "#374151"},
 ]
+
+# Fixed style for the Layer pill (Middleware)
+LAYER_STYLE = {"bg": "#f0fdf4", "fg": "#166534"}
 
 
 def category_color(category: str) -> dict:
@@ -88,11 +91,12 @@ def build_body(data: dict) -> str:
         rows_html.append(f'''<tr>
           <td>{esc(c["name"])}</td>
           <td><span class="pill" style="background:{cat_style["bg"]};color:{cat_style["fg"]};border-radius:8px;line-height:1.5;">{esc(c["category"] or "Uncategorized")}</span></td>
+          <td><span class="pill" style="background:{LAYER_STYLE["bg"]};color:{LAYER_STYLE["fg"]};border-radius:8px;line-height:1.5;">Middleware</span></td>
           <td><span class="pill" style="background:{tier_style["bg"]};color:{tier_style["fg"]}">{esc(tier["label"])}</span></td>
           <td>{url_cell}</td>
         </tr>''')
 
-    lede = subtitle or "Every RDK-B component for this device profile — repo, category, and tier."
+    lede = subtitle or "Every RDK-B component for this device profile — repo, category, layer, and type."
     return f'''
 {render_hero("Core RDK Components", "RDK-B EthWAN WiFi Router Components", lede, compact=True, visual_key="components")}
 
@@ -102,7 +106,7 @@ def build_body(data: dict) -> str:
   </p>
   <div style="margin-bottom:18px;">{legend_html}</div>
   <table class="def-table">
-    <thead><tr><th>Name</th><th>Category</th><th>Tier</th><th>Repositories</th></tr></thead>
+    <thead><tr><th>Name</th><th>Category</th><th>Layer</th><th>Type</th><th>Repositories</th></tr></thead>
     <tbody>{"".join(rows_html)}</tbody>
   </table>
   <p style="margin-top:18px; font-size:0.86rem;">

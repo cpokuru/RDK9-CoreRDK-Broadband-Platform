@@ -21,18 +21,11 @@ COMPONENTS_URL = "components/"
 # rather than a local page in this repo.
 NAV_LINKS = [
     ("link", "about", "About Core RDK Broadband", "index.html", False),
-    ("group", "standards", "Standards", [
-        ("link", "architecture-standards", "Architecture Standards", "architecture-standards.html", False),
-        ("link", "industry-standards", "Industry Conformance Standards", "industry-standards.html", False),
-        ("link", "technical-governance", "Development Standards", "technical-governance.html", False),
-    ]),
-    ("link", "component-registry", "Component Registry", "component-registry.html", False),
+
     ("group", "nbi-group", "North Bound APIs", [
-        ("link", "nbi-spec", "North Bound Specification", "north-bound-specification.html", False),
         ("link", "nbi", "List of North Bound APIs", "north-bound-apis.html", False),
     ]),
     ("group", "sbi-group", "South Bound APIs", [
-        ("link", "sbi-spec", "South Bound Specification", "south-bound-specification.html", False),
         ("link", "sbi", "List of South Bound APIs", "south-bound-apis.html", False),
     ]),
     ("link", "hwcompat", "Hardware Compatibility", "hardware-compatibility.html", False),
