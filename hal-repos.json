@@ -1,7 +1,7 @@
 {
-  "_comment": "Maps a HAL interface's display name to where its per-repo HAL spec JSON lives, same convention as dml-repos.json. All available files consolidated in cpokuru/rdk8-corerdkbroadband-tools under llapis/<repo>/<file> on main branch. Entries not yet migrated remain pointing to their original cpokuru repos or marked TBD.",
+  "_comment": "Maps a HAL interface's display name to where its per-repo HAL spec JSON lives, same convention as dml-repos.json. All available files consolidated in cpokuru/rdk9-corerdkbroadband-tools under llapis/<repo>/<file> on main branch. Entries not yet migrated remain pointing to their original cpokuru repos or marked TBD.",
   "Bridge Utility HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-bridge-util/bridge-util.json",
     "branch": "main"
   },
@@ -11,42 +11,42 @@
     "branch": "develop"
   },
   "Cellular Modem HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-cellular-modem/cellular-modem.json",
     "branch": "main"
   },
   "Cable Modem HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-cm/cm.json",
     "branch": "main"
   },
   "DHCP HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-dhcp/dhcp.json",
     "branch": "main"
   },
   "DHCPv6 Client HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-dhcp6c/dhcp6c.json",
     "branch": "main"
   },
   "eMMC HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-emmc/emmc.json",
     "branch": "main"
   },
   "EPON HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-epon/epon.json",
     "branch": "main"
   },
   "Ethernet Switch HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-ethsw/ethsw.json",
     "branch": "main"
   },
   "Firmware Upgrade HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-fwupgrade/fwupgrade.json",
     "branch": "main"
   },
@@ -56,32 +56,32 @@
     "branch": "develop"
   },
   "LPA (eSIM) HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-lpa/lpa.json",
     "branch": "main"
   },
   "MoCA HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-moca/moca.json",
     "branch": "main"
   },
   "MSO HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-mso/mso.json",
     "branch": "main"
   },
   "MTA (Voice Gateway) HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-mta/mta.json",
     "branch": "main"
   },
   "Platform HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-platform/platform.json",
     "branch": "main"
   },
   "VLAN HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-vlan/vlan.json",
     "branch": "main"
   },
@@ -91,12 +91,12 @@
     "branch": "develop"
   },
   "WAN HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-wan/wan.json",
     "branch": "main"
   },
   "WiFi HAL": {
-    "repo": "rdk8-corerdkbroadband-tools",
+    "repo": "rdk9-corerdkbroadband-tools",
     "file": "llapis/rdkb-halif-wifi/wifi.json",
     "branch": "main"
   },
