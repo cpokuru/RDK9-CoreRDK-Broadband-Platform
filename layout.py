@@ -23,7 +23,8 @@ NAV_LINKS = [
     ("link", "about", "About Core RDK Broadband", "index.html", False),
 
     ("group", "nbi-group", "North Bound APIs", [
-        ("link", "nbi", "List of North Bound APIs", "north-bound-apis.html", False),
+        ("link", "nbi", "RDK9 List of North Bound High Level APIs", "north-bound-apis.html", False),
+        ("link", "nbi-lowlevel", "RDK9 List of North Bound Low Level APIs", "north-bound-lowlevel-apis.html", False),
     ]),
     ("group", "sbi-group", "South Bound APIs", [
         ("link", "sbi", "List of South Bound APIs", "south-bound-apis.html", False),
