@@ -27,9 +27,9 @@ NAV_LINKS = [
         ("link", "nbi-lowlevel", "RDK9 List of North Bound Low Level APIs", "north-bound-lowlevel-apis.html", False),
     ]),
     ("group", "sbi-group", "RDK9 South Bound APIs", [
-        ("link", "sbi", "List of South Bound APIs", "south-bound-apis.html", False),
+        ("link", "sbi", "RDK9 List of South Bound APIs", "south-bound-apis.html", False),
     ]),
-    ("link", "hwcompat", "Hardware Compatibility", "hardware-compatibility.html", False),
+    ("link", "hwcompat", "RDK9 Hardware Compatibility", "hardware-compatibility.html", False),
     ("link", "components", "Core RDK Components", COMPONENTS_URL, True),
 ]
 
