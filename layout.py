@@ -22,11 +22,11 @@ COMPONENTS_URL = "components/"
 NAV_LINKS = [
     ("link", "about", "About Core RDK Broadband", "index.html", False),
 
-    ("group", "nbi-group", "North Bound APIs", [
+    ("group", "nbi-group", "RDK9 North Bound APIs", [
         ("link", "nbi", "RDK9 List of North Bound High Level APIs", "north-bound-apis.html", False),
         ("link", "nbi-lowlevel", "RDK9 List of North Bound Low Level APIs", "north-bound-lowlevel-apis.html", False),
     ]),
-    ("group", "sbi-group", "South Bound APIs", [
+    ("group", "sbi-group", "RDK9 South Bound APIs", [
         ("link", "sbi", "List of South Bound APIs", "south-bound-apis.html", False),
     ]),
     ("link", "hwcompat", "Hardware Compatibility", "hardware-compatibility.html", False),
